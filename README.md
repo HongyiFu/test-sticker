@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+Ruby 2.4.0
+Rails 5.0.4
+Postgresql
 
-* System dependencies
+* How it works? 
 
-* Configuration
+- CRUD operations for tasks (created using scaffold).
 
-* Database creation
+- User is able to create, edit, delete, and view their tasks. 
 
-* Database initialization
+- Tasks are not restricted to only the task creator. Everyone would be able to view and change everyone else's tasks.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+https://task-sticker.herokuapp.com/
 
-* Deployment instructions
-
-* ...
