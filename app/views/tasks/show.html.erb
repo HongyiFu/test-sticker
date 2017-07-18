@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<table class="show-table">
+
+  <tr>
+  	<td align='center'>
+  		<strong><%= @task.name %></strong>
+  	</td>
+  </tr>
+	
+  <tr>
+  	<td align='center'>
+	  	<strong>id</strong>
+	  </td>
+	  <td>
+	  	<%= @task.id %>
+	  </td>
+	</tr>
+
+  <tr>
+  	<td align='center'>
+	  	<strong>description</strong>
+	  </td>
+	  <td>
+	  	<%= @task.description %>
+	  </td>
+	</tr>
+
+	<tr>
+		<td align='center'>
+	  	<strong>dateCreated</strong>
+	  </td>
+	  <td>
+	  	<%= @task.created_at %>
+	  </td>
+	</tr>
+
+	<tr>
+		<td align='center'>
+		  <strong>dateUpdated</strong>
+		</td>
+		<td>
+		  <%= @task.updated_at %>
+	  </td>
+	</tr>
+</table>
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>
